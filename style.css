@@ -1,0 +1,118 @@
+button {
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    font-size: 1rem;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 12px;
+}
+
+
+.header {
+    display: grid;
+    gap: 8px;
+}
+
+.header-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 36px;
+}
+
+.header-1 p {
+ 
+    align-self: center;
+}
+
+.header-1>div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.header-1>div>div {
+    width: auto
+}
+
+.header-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.header-2-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    
+}
+
+.image-placeholder {
+    width: 25px;
+    height: 25px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.right-side-container {
+    display: grid;
+    gap: 12px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 8px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto 1fr 1fr;
+    gap: 16px;
+}
+
+.projects .card {
+    outline: 2px solid black;
+    margin: 20px;
+    font-size: 1.4rem;
+    padding: 6px;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.trending {
+   /*  grid-row: 2/3;
+    grid-column: 2/3; */
+}
+
+.announcements {
+    outline: 1px solid black;
+    width: 250px;
+    height: auto;
+    place-content: center;
+    margin: 20px;
+}
+
+.trending {
+    outline: 1px solid black;
+    width: 250px;
+    height: auto;
+    place-content: center;
+    margin: 20px;
+}
